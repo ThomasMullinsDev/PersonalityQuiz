@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		E933ECF82B8E3B7F00BDD248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933ECF72B8E3B7F00BDD248 /* AppDelegate.swift */; };
 		E933ECFA2B8E3B7F00BDD248 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933ECF92B8E3B7F00BDD248 /* SceneDelegate.swift */; };
-		E933ECFC2B8E3B7F00BDD248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933ECFB2B8E3B7F00BDD248 /* ViewController.swift */; };
+		E933ECFC2B8E3B7F00BDD248 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933ECFB2B8E3B7F00BDD248 /* IntroductionViewController.swift */; };
 		E933ECFF2B8E3B7F00BDD248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E933ECFD2B8E3B7F00BDD248 /* Main.storyboard */; };
 		E933ED012B8E3B8000BDD248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E933ED002B8E3B8000BDD248 /* Assets.xcassets */; };
 		E933ED042B8E3B8000BDD248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E933ED022B8E3B8000BDD248 /* LaunchScreen.storyboard */; };
+		E933ED0C2B8E422A00BDD248 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933ED0B2B8E422A00BDD248 /* QuestionViewController.swift */; };
+		E933ED0E2B8E424100BDD248 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933ED0D2B8E424100BDD248 /* ResultsViewController.swift */; };
+		E933ED122B8F7FE700BDD248 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933ED112B8F7FE700BDD248 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E933ECF42B8E3B7F00BDD248 /* PersonalityQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalityQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E933ECF72B8E3B7F00BDD248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E933ECF92B8E3B7F00BDD248 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E933ECFB2B8E3B7F00BDD248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E933ECFB2B8E3B7F00BDD248 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		E933ECFE2B8E3B7F00BDD248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E933ED002B8E3B8000BDD248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E933ED032B8E3B8000BDD248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E933ED052B8E3B8000BDD248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E933ED0B2B8E422A00BDD248 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		E933ED0D2B8E424100BDD248 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		E933ED112B8F7FE700BDD248 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				E933ECF72B8E3B7F00BDD248 /* AppDelegate.swift */,
 				E933ECF92B8E3B7F00BDD248 /* SceneDelegate.swift */,
-				E933ECFB2B8E3B7F00BDD248 /* ViewController.swift */,
+				E933ECFB2B8E3B7F00BDD248 /* IntroductionViewController.swift */,
 				E933ECFD2B8E3B7F00BDD248 /* Main.storyboard */,
+				E933ED112B8F7FE700BDD248 /* Question.swift */,
+				E933ED0D2B8E424100BDD248 /* ResultsViewController.swift */,
+				E933ED0B2B8E422A00BDD248 /* QuestionViewController.swift */,
 				E933ED002B8E3B8000BDD248 /* Assets.xcassets */,
 				E933ED022B8E3B8000BDD248 /* LaunchScreen.storyboard */,
 				E933ED052B8E3B8000BDD248 /* Info.plist */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E933ECFC2B8E3B7F00BDD248 /* ViewController.swift in Sources */,
+				E933ECFC2B8E3B7F00BDD248 /* IntroductionViewController.swift in Sources */,
 				E933ECF82B8E3B7F00BDD248 /* AppDelegate.swift in Sources */,
+				E933ED0C2B8E422A00BDD248 /* QuestionViewController.swift in Sources */,
+				E933ED122B8F7FE700BDD248 /* Question.swift in Sources */,
+				E933ED0E2B8E424100BDD248 /* ResultsViewController.swift in Sources */,
 				E933ECFA2B8E3B7F00BDD248 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +319,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ThomasMullinsDev.PersonalityQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,6 +351,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ThomasMullinsDev.PersonalityQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
